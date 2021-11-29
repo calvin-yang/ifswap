@@ -76,10 +76,18 @@ export const WETH = {
   ),
   [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    '0xA442Cc78F2bd5735367FD6d44fe2dAb54993d9C5',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
+    'WCET',
+    'Coinex CET',
+    'https://www.coinex.com'
+  ),
+  [ChainId.LOCAL]: new Token(
+    ChainId.TESTNET,
+    '0xA442Cc78F2bd5735367FD6d44fe2dAb54993d9C5',
+    18,
+    'WCET',
+    'Coinex CET',
+    'https://www.coinex.com'
   )
 }
