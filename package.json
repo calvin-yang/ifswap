@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:calvin-yang/ifswap.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/calvin-yang/ifswap.git"
+  },
   "keywords": [
     "ifswap",
     "bsc"
@@ -59,5 +62,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/calvin-yang/ifswap/issues"
+  },
+  "homepage": "https://github.com/calvin-yang/ifswap#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "calvin-yang"
 }
